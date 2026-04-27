@@ -385,6 +385,42 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.app-link-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.app-link-grid a {
+  min-height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px;
+  border-radius: 8px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 30px rgba(23, 32, 27, 0.06);
+}
+
+.app-link-grid a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(15, 123, 88, 0.45);
+}
+
+.app-link-grid span {
+  color: var(--coral);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.app-link-grid strong {
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
 .skills-wrap {
   display: grid;
   gap: 16px;
@@ -484,8 +520,9 @@ h3 {
 
   .proof-grid,
   .project-grid,
+  .app-link-grid,
   .timeline {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .skill-group {
@@ -531,6 +568,13 @@ h3 {
   }
 
   .metric-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .proof-grid,
+  .project-grid,
+  .app-link-grid,
+  .timeline {
     grid-template-columns: 1fr;
   }
 
