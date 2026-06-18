@@ -1,6 +1,6 @@
 # ZAMANWAY Flutter Developer Portfolio
 
-Static portfolio site built for Flutter developer roles in Pakistan.
+Interactive portfolio site built for global Flutter developer roles.
 
 Live site: https://zamanway-flutter-portfolio.netlify.app
 
@@ -13,10 +13,19 @@ Contact:
 ## Customize before sharing
 
 - Replace project descriptions with exact live app links or screenshots when available.
+- Keep the published app links current as new releases go live.
 
 ## Run locally
 
 Open `index.html` in a browser, or serve the folder with any static server.
+
+## Features
+
+- Global remote-work positioning
+- Filterable iOS and Android app portfolio
+- Animated impact stats
+- Scroll reveal effects
+- Copy-to-clipboard contact actions
 
 ## Deploy
 
