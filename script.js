@@ -3,13 +3,14 @@ const navLinks = [...document.querySelectorAll(".nav a")];
 const toast = document.querySelector(".toast");
 
 const previewCopy = {
-  delivery: "Builds clear app flows, handles edge states, and keeps features shippable.",
-  stack: "Works across Flutter, Dart, Firebase, REST APIs, maps, payments, notifications, and store release prep.",
-  release: "Focuses on QA fixes, store-ready polish, launch assets, and post-release maintenance.",
+  shipping: "Published apps, store-ready flows, and launch details handled with a product mindset.",
+  systems: "Firebase, REST APIs, maps, payments, notifications, auth, dashboards, and admin workflows.",
+  quality: "Polished UI, edge states, QA fixes, release assets, and post-launch maintenance.",
 };
 
-window.addEventListener("scroll", () => {
-  header.style.boxShadow = window.scrollY > 8 ? "0 10px 30px rgba(20, 32, 26, 0.08)" : "none";
+window.addEventListener("pointermove", (event) => {
+  document.documentElement.style.setProperty("--cursor-x", `${event.clientX}px`);
+  document.documentElement.style.setProperty("--cursor-y", `${event.clientY}px`);
 });
 
 document.querySelectorAll('a[href^="#"]').forEach((link) => {
@@ -25,15 +26,15 @@ document.querySelectorAll(".filter-button").forEach((button) => {
   button.addEventListener("click", () => {
     const filter = button.dataset.filter;
     document.querySelectorAll(".filter-button").forEach((item) => item.classList.toggle("is-active", item === button));
-    document.querySelectorAll(".app-link-grid a").forEach((card) => {
+    document.querySelectorAll(".app-grid a").forEach((card) => {
       card.classList.toggle("is-hidden", filter !== "all" && card.dataset.platform !== filter);
     });
   });
 });
 
-document.querySelectorAll(".preview-tab").forEach((button) => {
+document.querySelectorAll(".preview-pill").forEach((button) => {
   button.addEventListener("click", () => {
-    document.querySelectorAll(".preview-tab").forEach((item) => item.classList.toggle("is-active", item === button));
+    document.querySelectorAll(".preview-pill").forEach((item) => item.classList.toggle("is-active", item === button));
     document.querySelector("#preview-copy").textContent = previewCopy[button.dataset.preview];
   });
 });
