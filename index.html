@@ -3,179 +3,68 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Portfolio for Shariq Khan, a Flutter developer building published iOS and Android apps for global teams."
-    />
+    <meta name="description" content="Shariq Khan is a Flutter developer building published iOS and Android apps for global startups, agencies, and remote product teams." />
     <title>Shariq Khan | Flutter Developer</title>
     <link rel="preconnect" href="https://avatars.githubusercontent.com" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Shariq Khan home">Shariq Khan</a>
+      <a class="brand" href="#top" aria-label="Shariq Khan home"><span>SK</span>Shariq Khan</a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="#impact">Impact</a>
-        <a href="#apps">Apps</a>
-        <a href="#services">Services</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
+        <a href="#proof">Proof</a><a href="#apps">Apps</a><a href="#stack">Stack</a><a href="#workflow">Workflow</a><a href="#contact">Contact</a>
       </nav>
-      <a class="header-cta" href="https://linkedin.com/in/shariq-khan-61a24244" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a class="header-cta" href="mailto:0077shariq@gmail.com">Hire me</a>
     </header>
-
     <main id="top">
       <section class="hero" data-reveal>
         <div class="hero-copy">
-          <p class="eyebrow">Flutter developer for global product teams</p>
-          <h1>Published mobile apps for startups, agencies, and remote teams.</h1>
-          <p class="hero-text">
-            I build Flutter apps that move from idea to production: polished UI, Firebase and REST integrations,
-            maps, payments, admin workflows, release preparation, and maintenance after launch.
-          </p>
-          <div class="hero-actions">
-            <a class="primary-button" href="#contact">Hire me</a>
-            <a class="secondary-button" href="#apps">Explore live apps</a>
-          </div>
-          <div class="trust-row" aria-label="Key strengths">
-            <span>Flutter</span>
-            <span>Dart</span>
-            <span>Firebase</span>
-            <span>iOS and Android</span>
-            <span>Remote-ready</span>
-          </div>
+          <p class="eyebrow">Global Flutter developer / iOS + Android</p>
+          <h1>Mobile products that look sharp, launch cleanly, and survive real users.</h1>
+          <p class="hero-text">I help startups, agencies, and remote teams turn product ideas into polished Flutter apps with Firebase, REST APIs, maps, payments, dashboards, release prep, and post-launch iteration.</p>
+          <div class="hero-actions"><a class="primary-button" href="#contact">Start a project</a><a class="secondary-button" href="#apps">See shipped apps</a></div>
+          <div class="cred-strip" aria-label="Portfolio stats"><div><strong data-count="19">0</strong><span>Store links</span></div><div><strong data-count="10">0</strong><span>iOS releases</span></div><div><strong data-count="9">0</strong><span>Android releases</span></div></div>
         </div>
-
-        <div class="hero-panel" aria-label="Developer summary">
-          <div class="profile-card">
-            <div class="profile-head">
-              <img src="https://avatars.githubusercontent.com/u/108523220?v=4" alt="Shariq Khan GitHub avatar" />
-              <div>
-                <strong>Shariq Khan</strong>
-                <span>Flutter Developer</span>
+        <div class="hero-stage" aria-label="Interactive mobile product preview">
+          <div class="device-stack">
+            <div class="phone phone-main">
+              <div class="phone-bar"></div>
+              <div class="app-screen">
+                <div class="screen-top"><img src="https://avatars.githubusercontent.com/u/108523220?v=4" alt="Shariq Khan avatar" /><div><strong>Shariq Khan</strong><span>Flutter Engineer</span></div></div>
+                <div class="release-meter"><span>Release readiness</span><strong>Production</strong><div><i></i></div></div>
+                <div class="screen-list"><button class="preview-pill is-active" type="button" data-preview="shipping">Shipping</button><button class="preview-pill" type="button" data-preview="systems">Systems</button><button class="preview-pill" type="button" data-preview="quality">Quality</button></div>
+                <p id="preview-copy">Published apps, store-ready flows, and launch details handled with a product mindset.</p>
               </div>
             </div>
-            <div class="status-line"><span></span> Available for remote, freelance, and product team roles</div>
-            <div class="stats-grid">
-              <div><strong data-count="19">0</strong><span>Store links</span></div>
-              <div><strong data-count="10">0</strong><span>iOS releases</span></div>
-              <div><strong data-count="9">0</strong><span>Android releases</span></div>
-              <div><strong>UTC+5</strong><span>Timezone</span></div>
-            </div>
-            <div class="preview-tabs" role="tablist" aria-label="Preview areas">
-              <button class="preview-tab is-active" type="button" data-preview="delivery">Delivery</button>
-              <button class="preview-tab" type="button" data-preview="stack">Stack</button>
-              <button class="preview-tab" type="button" data-preview="release">Release</button>
-            </div>
-            <div class="preview-copy" id="preview-copy">
-              Builds clear app flows, handles edge states, and keeps features shippable.
-            </div>
+            <div class="floating-card card-one"><span>UTC+5</span><strong>Remote-ready</strong></div>
+            <div class="floating-card card-two"><span>iOS + Android</span><strong>One Flutter codebase</strong></div>
           </div>
         </div>
       </section>
-
-      <section class="section-band impact" id="impact" data-reveal>
-        <div>
-          <span class="section-kicker">Global positioning</span>
-          <h2>Built for teams that care about shipping, not just screens.</h2>
-        </div>
-        <div class="proof-grid">
-          <article>
-            <strong>Production delivery</strong>
-            <p>Live App Store and Play Store work with launch-focused details, not just portfolio mockups.</p>
-          </article>
-          <article>
-            <strong>Cross-border collaboration</strong>
-            <p>Clear updates, async communication, and workflows that fit agencies, founders, and remote teams.</p>
-          </article>
-          <article>
-            <strong>Practical product sense</strong>
-            <p>Authentication, payments, maps, dashboards, booking flows, and marketplace-style journeys.</p>
-          </article>
+      <section class="logo-rail" aria-label="Published app highlights" data-reveal><div class="rail-track"><span>Partycade</span><span>Otobucks</span><span>Jebby</span><span>Swish</span><span>Sky Resources</span><span>Vifty</span><span>DIY Learners</span><span>Property Kare</span><span>DriveWatch</span><span>Lookbook</span></div></section>
+      <section class="bento-section" id="proof" data-reveal>
+        <div class="section-heading"><span class="section-kicker">Proof over promises</span><h2>A portfolio built around shipped software.</h2></div>
+        <div class="bento-grid">
+          <article class="bento-card large"><span>Production delivery</span><h3>Real store listings, not concept screens.</h3><p>Recruiters and clients can open public iOS and Android listings, which immediately separates the work from generic UI mockups.</p></article>
+          <article class="bento-card accent"><span>Product range</span><h3>Education, logistics, sports, property, marketplaces.</h3></article>
+          <article class="bento-card"><span>Collaboration</span><h3>Async-friendly updates for remote teams.</h3><p>Clear milestones, demo-ready slices, and practical communication across time zones.</p></article>
+          <article class="bento-card"><span>Execution</span><h3>From UI polish to backend integrations.</h3><p>Firebase, REST APIs, maps, payments, notifications, admin flows, and release support.</p></article>
         </div>
       </section>
-
-      <section class="content-section" id="apps" data-reveal>
-        <div class="section-heading">
-          <span class="section-kicker">Published apps</span>
-          <h2>Filter real releases by platform.</h2>
-          <p>Every card opens a public App Store or Play Store listing.</p>
-        </div>
-        <div class="filter-bar" aria-label="Filter published apps">
-          <button class="filter-button is-active" type="button" data-filter="all">All</button>
-          <button class="filter-button" type="button" data-filter="ios">iOS</button>
-          <button class="filter-button" type="button" data-filter="android">Android</button>
-        </div>
-        <div class="app-link-grid">
-          <a data-platform="ios" href="https://apps.apple.com/pk/app/partycade/id6453992967" target="_blank" rel="noreferrer"><span>iOS</span><strong>Partycade</strong><em>Entertainment</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/pk/app/otobucks/id1669294682" target="_blank" rel="noreferrer"><span>iOS</span><strong>Otobucks</strong><em>Marketplace</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/pk/app/jebby/id6469835111" target="_blank" rel="noreferrer"><span>iOS</span><strong>Jebby</strong><em>Consumer app</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/pk/app/swish-llc/id6499595508" target="_blank" rel="noreferrer"><span>iOS</span><strong>Swish LLC</strong><em>Sports</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/pk/app/sky-resources/id6451418575" target="_blank" rel="noreferrer"><span>iOS</span><strong>Sky Resources</strong><em>Operations</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/pk/app/vifty/id6651836725" target="_blank" rel="noreferrer"><span>iOS</span><strong>Vifty</strong><em>Product app</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/pk/app/diy-learners/id6751211765" target="_blank" rel="noreferrer"><span>iOS</span><strong>DIY Learners</strong><em>Education</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/pk/app/property-kare/id6744563528" target="_blank" rel="noreferrer"><span>iOS</span><strong>Property Kare</strong><em>Property tech</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/us/app/pakket2go-koeriers/id1606711671" target="_blank" rel="noreferrer"><span>iOS</span><strong>Pakket2Go Koeriers</strong><em>Logistics</em></a>
-          <a data-platform="ios" href="https://apps.apple.com/us/app/drivewatch/id6474870720" target="_blank" rel="noreferrer"><span>iOS</span><strong>DriveWatch</strong><em>Monitoring</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.lgmapp.app" target="_blank" rel="noreferrer"><span>Android</span><strong>LGM App</strong><em>Business app</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.scribble.thesuitch" target="_blank" rel="noreferrer"><span>Android</span><strong>The Suitch</strong><em>Consumer app</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.thelookbookapp.lookbook" target="_blank" rel="noreferrer"><span>Android</span><strong>Lookbook</strong><em>Fashion</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.skyresourcesapp.skyresources" target="_blank" rel="noreferrer"><span>Android</span><strong>Sky Resources</strong><em>Operations</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.swish_basketball" target="_blank" rel="noreferrer"><span>Android</span><strong>Swish Basketball</strong><em>Sports</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.brandon.property_kare_app" target="_blank" rel="noreferrer"><span>Android</span><strong>Property Kare</strong><em>Property tech</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.anrear.app" target="_blank" rel="noreferrer"><span>Android</span><strong>Anrear</strong><em>Product app</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.slimpakket.user&amp;hl=pl" target="_blank" rel="noreferrer"><span>Android</span><strong>Slim Pakket</strong><em>Logistics</em></a>
-          <a data-platform="android" href="https://play.google.com/store/apps/details?id=drivewatch.pro&amp;hl=en-US" target="_blank" rel="noreferrer"><span>Android</span><strong>DriveWatch</strong><em>Monitoring</em></a>
+      <section class="apps-section" id="apps" data-reveal>
+        <div class="section-heading split-heading"><div><span class="section-kicker">Published apps</span><h2>Filter the release wall.</h2><p>Each tile opens a live App Store or Play Store page.</p></div><div class="filter-bar" aria-label="Filter published apps"><button class="filter-button is-active" type="button" data-filter="all">All <span>19</span></button><button class="filter-button" type="button" data-filter="ios">iOS <span>10</span></button><button class="filter-button" type="button" data-filter="android">Android <span>9</span></button></div></div>
+        <div class="featured-apps"><a class="feature-app" href="https://apps.apple.com/pk/app/property-kare/id6744563528" target="_blank" rel="noreferrer"><span>Featured iOS</span><strong>Property Kare</strong><p>Property workflow app with listing, service, and customer journey potential.</p></a><a class="feature-app" href="https://play.google.com/store/apps/details?id=drivewatch.pro&amp;hl=en-US" target="_blank" rel="noreferrer"><span>Featured Android</span><strong>DriveWatch</strong><p>Monitoring product experience across mobile release channels.</p></a></div>
+        <div class="app-grid">
+          <a data-platform="ios" href="https://apps.apple.com/pk/app/partycade/id6453992967" target="_blank" rel="noreferrer"><span>iOS</span><strong>Partycade</strong><em>Entertainment</em></a><a data-platform="ios" href="https://apps.apple.com/pk/app/otobucks/id1669294682" target="_blank" rel="noreferrer"><span>iOS</span><strong>Otobucks</strong><em>Marketplace</em></a><a data-platform="ios" href="https://apps.apple.com/pk/app/jebby/id6469835111" target="_blank" rel="noreferrer"><span>iOS</span><strong>Jebby</strong><em>Consumer app</em></a><a data-platform="ios" href="https://apps.apple.com/pk/app/swish-llc/id6499595508" target="_blank" rel="noreferrer"><span>iOS</span><strong>Swish LLC</strong><em>Sports</em></a><a data-platform="ios" href="https://apps.apple.com/pk/app/sky-resources/id6451418575" target="_blank" rel="noreferrer"><span>iOS</span><strong>Sky Resources</strong><em>Operations</em></a><a data-platform="ios" href="https://apps.apple.com/pk/app/vifty/id6651836725" target="_blank" rel="noreferrer"><span>iOS</span><strong>Vifty</strong><em>Product app</em></a><a data-platform="ios" href="https://apps.apple.com/pk/app/diy-learners/id6751211765" target="_blank" rel="noreferrer"><span>iOS</span><strong>DIY Learners</strong><em>Education</em></a><a data-platform="ios" href="https://apps.apple.com/pk/app/property-kare/id6744563528" target="_blank" rel="noreferrer"><span>iOS</span><strong>Property Kare</strong><em>Property tech</em></a><a data-platform="ios" href="https://apps.apple.com/us/app/pakket2go-koeriers/id1606711671" target="_blank" rel="noreferrer"><span>iOS</span><strong>Pakket2Go</strong><em>Logistics</em></a><a data-platform="ios" href="https://apps.apple.com/us/app/drivewatch/id6474870720" target="_blank" rel="noreferrer"><span>iOS</span><strong>DriveWatch</strong><em>Monitoring</em></a>
+          <a data-platform="android" href="https://play.google.com/store/apps/details?id=com.lgmapp.app" target="_blank" rel="noreferrer"><span>Android</span><strong>LGM App</strong><em>Business</em></a><a data-platform="android" href="https://play.google.com/store/apps/details?id=com.scribble.thesuitch" target="_blank" rel="noreferrer"><span>Android</span><strong>The Suitch</strong><em>Consumer app</em></a><a data-platform="android" href="https://play.google.com/store/apps/details?id=com.thelookbookapp.lookbook" target="_blank" rel="noreferrer"><span>Android</span><strong>Lookbook</strong><em>Fashion</em></a><a data-platform="android" href="https://play.google.com/store/apps/details?id=com.skyresourcesapp.skyresources" target="_blank" rel="noreferrer"><span>Android</span><strong>Sky Resources</strong><em>Operations</em></a><a data-platform="android" href="https://play.google.com/store/apps/details?id=com.swish_basketball" target="_blank" rel="noreferrer"><span>Android</span><strong>Swish Basketball</strong><em>Sports</em></a><a data-platform="android" href="https://play.google.com/store/apps/details?id=com.brandon.property_kare_app" target="_blank" rel="noreferrer"><span>Android</span><strong>Property Kare</strong><em>Property tech</em></a><a data-platform="android" href="https://play.google.com/store/apps/details?id=com.anrear.app" target="_blank" rel="noreferrer"><span>Android</span><strong>Anrear</strong><em>Product app</em></a><a data-platform="android" href="https://play.google.com/store/apps/details?id=com.slimpakket.user&amp;hl=pl" target="_blank" rel="noreferrer"><span>Android</span><strong>Slim Pakket</strong><em>Logistics</em></a><a data-platform="android" href="https://play.google.com/store/apps/details?id=drivewatch.pro&amp;hl=en-US" target="_blank" rel="noreferrer"><span>Android</span><strong>DriveWatch</strong><em>Monitoring</em></a>
         </div>
       </section>
-
-      <section class="split-section" id="services" data-reveal>
-        <div class="section-heading">
-          <span class="section-kicker">Services</span>
-          <h2>Where I can plug into a team.</h2>
-        </div>
-        <div class="service-grid">
-          <article><h3>Flutter app builds</h3><p>End-to-end Android and iOS builds from product flow to store-ready implementation.</p></article>
-          <article><h3>Firebase and API work</h3><p>Auth, Firestore, storage, REST APIs, push notifications, maps, payments, and role-based flows.</p></article>
-          <article><h3>UI polish and fixes</h3><p>Responsive layouts, state cleanup, bug fixing, performance passes, and app release preparation.</p></article>
-        </div>
-      </section>
-
-      <section class="content-section" id="process" data-reveal>
-        <div class="section-heading">
-          <span class="section-kicker">Process</span>
-          <h2>A practical delivery flow for remote teams.</h2>
-        </div>
-        <div class="timeline">
-          <div><span>01</span><h3>Define the outcome</h3><p>Clarify users, app flows, integrations, timeline, and release target.</p></div>
-          <div><span>02</span><h3>Build in milestones</h3><p>Ship usable slices with frequent demos and clear progress updates.</p></div>
-          <div><span>03</span><h3>Stabilize and launch</h3><p>Handle edge states, QA fixes, store assets, release prep, and post-launch support.</p></div>
-        </div>
-      </section>
-
-      <section class="cta-section" id="contact" data-reveal>
-        <div>
-          <span class="section-kicker">Available worldwide</span>
-          <h2>Need a Flutter developer for a remote role, contract, or product build?</h2>
-          <p>I am available for global freelance work, remote teams, and mobile product delivery across time zones.</p>
-        </div>
-        <div class="contact-panel">
-          <a class="primary-button" href="mailto:0077shariq@gmail.com">Email me</a>
-          <a class="secondary-button" href="tel:+923340269930">Call</a>
-          <a class="secondary-button" href="https://linkedin.com/in/shariq-khan-61a24244" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="secondary-button" href="https://github.com/ZAMANWAY" target="_blank" rel="noreferrer">GitHub</a>
-          <button class="copy-button" type="button" data-copy="0077shariq@gmail.com">Copy email</button>
-          <button class="copy-button" type="button" data-copy="+923340269930">Copy phone</button>
-          <p>0077shariq@gmail.com | +92 334 0269930 | linkedin.com/in/shariq-khan-61a24244</p>
-        </div>
-      </section>
+      <section class="stack-section" id="stack" data-reveal><div class="section-heading"><span class="section-kicker">Stack and services</span><h2>Useful where mobile work gets messy.</h2></div><div class="stack-grid"><article><span>01</span><h3>Flutter builds</h3><p>Reusable UI, responsive layouts, navigation, forms, state, animations, and app architecture.</p></article><article><span>02</span><h3>Backend integration</h3><p>Firebase Auth, Firestore, storage, REST APIs, push notifications, maps, payments, and admin flows.</p></article><article><span>03</span><h3>Launch polish</h3><p>Bug fixing, edge states, loading states, store assets, release prep, and post-launch maintenance.</p></article></div></section>
+      <section class="workflow-section" id="workflow" data-reveal><div class="section-heading"><span class="section-kicker">Workflow</span><h2>Simple process. Fast signal. Fewer surprises.</h2></div><div class="workflow-list"><div><span>Discover</span><p>Clarify users, features, integrations, release target, and risks.</p></div><div><span>Build</span><p>Ship in useful milestones with demoable app slices and clear progress updates.</p></div><div><span>Launch</span><p>Stabilize, polish, prepare store assets, and support the release window.</p></div></div></section>
+      <section class="contact-section" id="contact" data-reveal><div><span class="section-kicker">Available worldwide</span><h2>Need a Flutter developer who can actually ship?</h2><p>Open to remote roles, freelance builds, agency support, and startup product work across time zones.</p></div><div class="contact-panel"><a class="primary-button" href="mailto:0077shariq@gmail.com">Email</a><a class="secondary-button" href="tel:+923340269930">Call</a><a class="secondary-button" href="https://linkedin.com/in/shariq-khan-61a24244" target="_blank" rel="noreferrer">LinkedIn</a><a class="secondary-button" href="https://github.com/ZAMANWAY" target="_blank" rel="noreferrer">GitHub</a><button class="copy-button" type="button" data-copy="0077shariq@gmail.com">Copy email</button><button class="copy-button" type="button" data-copy="+923340269930">Copy phone</button><p>0077shariq@gmail.com | +92 334 0269930 | UTC+5</p></div></section>
     </main>
-
-    <footer class="footer">
-      <span>Global Flutter developer. Remote-ready from UTC+5.</span>
-      <a href="#top">Back to top</a>
-    </footer>
-
+    <footer class="footer"><span>Shariq Khan / Flutter Developer / Global remote</span><a href="#top">Back to top</a></footer>
     <div class="toast" role="status" aria-live="polite"></div>
     <script src="./script.js"></script>
   </body>
