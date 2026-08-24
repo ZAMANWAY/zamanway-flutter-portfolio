@@ -1,14 +1,14 @@
 # ZAMANWAY Flutter Developer Portfolio
 
-Interactive portfolio site built for global Flutter developer roles.
+Interactive portfolio site built for KSA, GCC, and senior Flutter developer roles.
 
 Live site: https://zamanway-flutter-portfolio.netlify.app
 
 Contact:
 
 - Email: 0077shariq@gmail.com
-- Phone: +92 334 0269930
-- LinkedIn: https://linkedin.com/in/shariq-khan-61a24244
+- Phone: +966 50 286 1326
+- LinkedIn: https://linkedin.com/in/shariq-khan-b61a24244
 
 ## Customize before sharing
 
@@ -21,7 +21,7 @@ Open `index.html` in a browser, or serve the folder with any static server.
 
 ## Features
 
-- Global remote-work positioning
+- KSA and GCC-focused positioning
 - Filterable iOS and Android app portfolio
 - Animated impact stats
 - Scroll reveal effects
