@@ -1,8 +1,8 @@
 # Shariq Khan — Mobile Engineering Portfolio
 
-Production site: https://zamanway-flutter-portfolio.netlify.app
+Production site: https://zamanway-mobile-app-portfolio.netlify.app
 
-A responsive, buildless portfolio using HTML, CSS, and JavaScript. Featured projects use public App Store promotional screenshots; the archive preserves all 19 original store listings. Career details are based on Shariq's CV.
+A responsive, buildless portfolio using HTML, CSS, and JavaScript. Featured projects use public App Store promotional screenshots; the archive preserves all 25 store listings. Career details are based on Shariq's CV.
 
 ## Local preview
 
