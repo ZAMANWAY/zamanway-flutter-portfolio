@@ -1,32 +1,30 @@
-# ZAMANWAY Flutter Developer Portfolio
+# Shariq Khan — Mobile Engineering Portfolio
 
-Interactive portfolio site built for KSA, GCC, and senior Flutter developer roles.
+Production site: https://zamanway-flutter-portfolio.netlify.app
 
-Live site: https://zamanway-flutter-portfolio.netlify.app
+A responsive, buildless portfolio using HTML, CSS, and JavaScript. Featured projects use public App Store promotional screenshots; the archive preserves all 19 original store listings. Career details are based on Shariq's CV.
 
-Contact:
+## Local preview
 
-- Email: 0077shariq@gmail.com
-- Phone: +966 50 286 1326
-- LinkedIn: https://linkedin.com/in/shariq-khan-b61a24244
-
-## Customize before sharing
-
-- Replace project descriptions with exact live app links or screenshots when available.
-- Keep the published app links current as new releases go live.
-
-## Run locally
-
-Open `index.html` in a browser, or serve the folder with any static server.
+Run `python3 -m http.server 8765` and open http://localhost:8765.
 
 ## Features
 
-- KSA and GCC-focused positioning
-- Filterable iOS and Android app portfolio
-- Animated impact stats
-- Scroll reveal effects
-- Copy-to-clipboard contact actions
+- Responsive editorial layout with reduced-motion support
+- Featured projects, experience timeline, and engineering capabilities
+- Expandable iOS/Android store archive with accessible filters
+- Email contact and copy-to-clipboard with a fallback
 
-## Deploy
+## Deployment
 
-This site is ready for Netlify, Vercel, GitHub Pages, or any static host.
+Netlify publishes the repository root using the existing `netlify.toml` configuration. No build step or runtime dependencies are required.
+
+## Assets
+
+App screenshots are referenced from Apple's CDN. Google Fonts supplies Manrope and DM Sans with system sans-serif fallbacks. Update store links and screenshots when products change.
+
+## Cinematic edition
+
+The hero illustrates a three-stage development sequence: typed code, interface assembly, and a released app. It loops continuously through Flutter/Dart, Swift/iOS, and Kotlin/Android, with pause/resume and replay controls. OS reduced-motion preferences show the completed composition immediately. Animation timing pauses while the page is hidden. Project artwork responds gently to fine-pointer movement; content reveals on scroll. The code is an illustrative vignette, not application source. The downloadable CV is the original PDF supplied by Shariq.
+
+The two earlier portfolio repositories were checked for artwork; both used stock imagery, so the authentic App Store imagery is retained.
